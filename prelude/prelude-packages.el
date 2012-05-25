@@ -35,7 +35,10 @@
 (require 'cl)
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("elpa" . "http://tromey.com/elpa/") t)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.milkbox.net/packages/" ) t)
+
 (package-initialize)
 
 ;; required because of a package.el bug
