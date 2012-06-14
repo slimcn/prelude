@@ -1,5 +1,12 @@
-; (require 'org2blog-autoloads)
-; (setq org2blog/wp-blog-alist
-;       '(("blog_ihaigui"
-;          :url "http://blog.ihaigui.org/xmlrpc.php"
-;          :username "sjm")))
+
+;; elpa package list (require-mode elpa-name)
+(defvar person-elpas '((twittering-mode twittering-mode)))
+
+;; install elpa packages
+(dolist (p person-elpas)
+  (unless (package-installed-p (car (cdr p)))
+    (package-install (car (cdr p)))))
+
+;; rquire elpa packages
+(dolist (p person-elpas)
+  (require (car p)))
