@@ -5,8 +5,9 @@
 (defvar person-package-dir (concat prelude-personal-dir "package/"))
 
 ;; unelpa package list
-(defvar person-unelpas '((rails "emacs-rails")      ; https://github.com/remvee/emacs-rails
-                         (weibo "weibo")            ; sina weibo https://github.com/austin-----/weibo.emacs
+(defvar person-unelpas '((find-recursive "ror") ; rails model need this http://www.webweavertech.com/ovidiu/emacs/find-recursive.txt
+                         (rails "emacs-rails") ; https://github.com/remvee/emacs-rails
+                         ;(weibo "weibo")            ; sina weibo https://github.com/austin-----/weibo.emacs
                          ))
 
 ;; load path unelpa packages
