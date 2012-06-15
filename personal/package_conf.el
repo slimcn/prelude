@@ -7,6 +7,7 @@
 ;; unelpa package list
 (defvar person-unelpas '((find-recursive "ror") ; rails model need this http://www.webweavertech.com/ovidiu/emacs/find-recursive.txt
                          (rails "emacs-rails") ; https://github.com/remvee/emacs-rails
+                         (sr-speedbar "base") ; same frame speedbar https://github.com/emacsmirror/sr-speedbar.git
                          ;(weibo "weibo")            ; sina weibo https://github.com/austin-----/weibo.emacs
                          ))
 
@@ -20,3 +21,8 @@
 ;       '(("blog_ihaigui"
 ;          :url "http://blog.ihaigui.org/xmlrpc.php"
 ;          :username "sjm")))
+
+
+;; sr-speedbar config
+(setq sr-speedbar-width-x 30)
+(setq sr-speedbar-right-side nil)
