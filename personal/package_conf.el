@@ -27,6 +27,3 @@
 (setq sr-speedbar-width-x 30)
 (setq sr-speedbar-right-side nil)
 (sr-speedbar-open)
-
-;; ibus-el config
-(add-hook 'after-init-hook 'ibus-mode-on)
