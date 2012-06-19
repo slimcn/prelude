@@ -16,3 +16,6 @@
 
 ;; flymake-ruby config
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
+
+;; close electric-pair-mode when ruby-electric
+(add-hook 'ruby-mode-hoo 'electric-pair-mode)

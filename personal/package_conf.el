@@ -24,6 +24,6 @@
 
 
 ;; sr-speedbar config
-(setq sr-speedbar-width-x 30)
+(setq sr-speedbar-width-x 25)
 (setq sr-speedbar-right-side nil)
 (sr-speedbar-open)
