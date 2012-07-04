@@ -3,6 +3,7 @@
                        (ruby-electric ruby-electric)
                        (flymake-ruby flymake-ruby)
                        (auto-complete auto-complete)
+                       (bitlbee bitlbee)
                        ))
 
 ;; install elpa packages
@@ -19,3 +20,10 @@
 
 ;; close electric-pair-mode when ruby-electric
 (add-hook 'ruby-mode-hoo 'electric-pair-mode)
+
+;; twittering-mode config
+(setq twittering-use-ssl nil twittering-oauth-use-ssl nil)
+(setq twittering-icon-mode 1)
+(setq twittering-enabled-services '(sina))
+(setq twittering-accounts '((sina (username "shangjingmin@gmail.com")
+                                  (auth oauth))))
