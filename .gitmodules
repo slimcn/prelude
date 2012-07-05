@@ -1,3 +1,6 @@
 [submodule "personal/package/emacs-rails"]
 	path = personal/package/emacs-rails
 	url = git://github.com/tomtt/emacs-rails.git
+[submodule "personal/package/weibo"]
+	path = personal/package/weibo
+	url = git://github.com/austin-----/weibo.emacs.git
