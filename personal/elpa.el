@@ -22,6 +22,11 @@
 (add-hook 'ruby-mode-hoo 'electric-pair-mode)
 
 ;; twittering-mode config
+(setq twittering-use-master-password t)
+(setq twittering-allow-insecure-server-cert t)
+(setq twittering-oauth-use-ssl nil)
+(setq twittering-use-ssl nil)
+;(setq twittering-initial-timeline-spec-string `(“:home@sina”))
 (setq twittering-use-ssl nil twittering-oauth-use-ssl nil)
 (setq twittering-icon-mode 1)
 (setq twittering-enabled-services '(sina))

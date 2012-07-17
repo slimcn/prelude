@@ -15,3 +15,10 @@
         (insert ", :title => \"" title "\"")
       ())
     (insert " %>")))
+
+(defun ror-ga-email (str)
+  "ror ga email url"
+  (interactive "sType(1 common;):")
+  (insert "<%= ga_email_tracing_url \"")
+  (save-excursion
+    (insert "\", " str " %>")))

@@ -8,7 +8,7 @@
 (defvar person-unelpas '((find-recursive "ror") ; rails model need this http://www.webweavertech.com/ovidiu/emacs/find-recursive.txt
                         ; (rails "emacs-rails") ; https://github.com/remvee/emacs-rails
                          (sr-speedbar "base") ; same frame speedbar https://github.com/emacsmirror/sr-speedbar.git
-                        ;(weibo "weibo")            ; sina weibo https://github.com/austin-----/weibo.emacs
+                        (weibo "weibo")            ; sina weibo https://github.com/austin-----/weibo.emacs
                          ))
 
 ;; load path unelpa packages
